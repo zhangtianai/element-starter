@@ -16,7 +16,7 @@ RUN npm install --production && \
 
 # Bundle app source
 COPY . /usr/src/app
-
+RUN yarn
 # Apply all patches in app
 #RUN npm run postinstall
 
