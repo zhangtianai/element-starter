@@ -8,6 +8,13 @@
 
 `Node >= 6`
 
+## docker Start
+``` bash
+git clone https://github.com/zhangtianai/element-starter.git && cd element-starter
+```
+``` bash
+git pull && docker-compose up --build
+```
 ## Start
 
  - Clone or download this repository
