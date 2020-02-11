@@ -21,4 +21,4 @@ RUN yarn
 #RUN npm run postinstall
 
 EXPOSE 18083
-CMD ["npm", "run", "dev"]
+CMD ["npm", "run", "dev","0.0.0.0:8010"]
