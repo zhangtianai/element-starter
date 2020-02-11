@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  vued3tree:  
+    build: .
+    ports:
+    - "18083:8010"     
+    command: npm run dev
+    restart: on-failure
