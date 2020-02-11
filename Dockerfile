@@ -18,7 +18,7 @@ RUN npm install --production && \
 COPY . /usr/src/app
 
 # Apply all patches in app
-RUN npm run postinstall
+#RUN npm run postinstall
 
 EXPOSE 18083
 CMD ["npm", "run", "dev"]
